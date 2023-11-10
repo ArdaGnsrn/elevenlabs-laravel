@@ -2,9 +2,9 @@
 
 namespace ArdaGnsrn\ElevenLabs\Tests;
 
+use ArdaGnsrn\ElevenLabs\ElevenLabsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ArdaGnsrn\ElevenLabs\ElevenLabsServiceProvider;
 
 class TestCase extends Orchestra
 {
