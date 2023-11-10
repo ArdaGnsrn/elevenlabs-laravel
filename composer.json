@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ardagnsrn/elevenlabs-laravel",
+    "description": "This is an Open Source Laravel package for ElevenLabs Text to Speech API.",
     "keywords": [
-        ":vendor_name",
+        "ArdaGnsrn",
         "laravel",
-        ":package_slug"
+        "elevenlabs-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ardagnsrn/elevenlabs-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Arda GUNSUREN",
+            "email": "info@ardagunsuren.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "ArdaGnsrn\\ElevenLabs\\": "src/",
+            "ArdaGnsrn\\ElevenLabs\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "ArdaGnsrn\\ElevenLabs\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-elevenlabs-laravel --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ArdaGnsrn\\ElevenLabs\\ElevenLabsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ElevenLabs": "ArdaGnsrn\\ElevenLabs\\Facades\\ElevenLabs"
             }
         }
     },
