@@ -27,6 +27,7 @@ me a coffee, so I can dedicate more time on open-source projects like this :)
   - [textToSpeech() Method](#texttospeech-method)
   - [getModels() Method](#getmodels-method)
 - [Testing](#testing)
+- [Other Languages](#other-languages)
 - [Changelog](#changelog)
 - [Contributing](#contributing)
 - [Credits](#credits)
@@ -115,6 +116,7 @@ composer test
 ## Other Languages
 Also, you can find the other languages of this package here:
 - [ElevenLabs API For NodeJS (elevenlabs-js)](https://github.com/ArdaGnsrn/elevenlabs-js)
+- [ElevenLabs API For PHP Laravel (elevenlabs-laravel)](https://github.com/ArdaGnsrn/elevenlabs-laravel)
 
 ## Changelog
 
