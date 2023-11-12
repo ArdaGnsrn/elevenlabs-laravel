@@ -2,7 +2,6 @@
 
 namespace ArdaGnsrn\ElevenLabs;
 
-use ArdaGnsrn\ElevenLabs\Commands\ElevenLabsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
