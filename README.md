@@ -29,7 +29,6 @@ me a coffee, so I can dedicate more time on open-source projects like this :)
 - [Testing](#testing)
 - [Other Languages](#other-languages)
 - [Changelog](#changelog)
-- [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
 
@@ -121,10 +120,6 @@ Also, you can find the other languages of this package here:
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 - [Arda GUNSUREN](https://github.com/ArdaGnsrn)
