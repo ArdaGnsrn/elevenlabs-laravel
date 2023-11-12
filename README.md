@@ -19,8 +19,6 @@ me a coffee, so I can dedicate more time on open-source projects like this :)
 
 ## Table of Contents
 
-- [Buy me a coffee](#buy-me-a-coffee)
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Supported Methods](#supported-methods)
 - [Parameters](#parameters)
