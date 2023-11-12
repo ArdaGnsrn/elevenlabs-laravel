@@ -7,13 +7,12 @@
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Support us
+## Buy me a coffee
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/elevenlabs-laravel.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/elevenlabs-laravel)
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying
+me a coffee, so I can dedicate more time on open-source projects like this :)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+<a href="https://www.buymeacoffee.com/ardagnsrn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Installation
 
@@ -21,13 +20,6 @@ You can install the package via composer:
 
 ```bash
 composer require ardagnsrn/elevenlabs-laravel
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="elevenlabs-laravel-migrations"
-php artisan migrate
 ```
 
 You can publish the config file with:
@@ -40,13 +32,8 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'api_key' => env('ELEVENLABS_API_KEY'),
 ];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="elevenlabs-laravel-views"
 ```
 
 ## Usage

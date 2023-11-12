@@ -17,8 +17,9 @@
     ],
     "require": {
         "php": "^8.1",
-        "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^10.0"
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/contracts": "^10.0",
+        "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -35,14 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ArdaGnsrn\\ElevenLabs\\": "src/",
-            "ArdaGnsrn\\ElevenLabs\\Database\\Factories\\": "database/factories/"
+            "ArdaGnsrn\\ElevenLabs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArdaGnsrn\\ElevenLabs\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "ArdaGnsrn\\ElevenLabs\\Tests\\": "tests/"
         }
     },
     "scripts": {
