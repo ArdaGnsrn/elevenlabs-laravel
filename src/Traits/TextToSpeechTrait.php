@@ -16,7 +16,7 @@ trait TextToSpeechTrait
             'json' => [
                 'text' => $text,
                 'model_id' => $modelId,
-                'voice_settings' => $voiceSettings,
+                ...($voiceSettings) ? ['voice_settings' => $voiceSettings] : [],
             ],
             'headers' => [
                 'Accept' => 'audio/mpeg',
